@@ -10,7 +10,7 @@ public class AppTest {
         WebDriver driver= new ChromeDriver();
         String eTitle = "Meet Guru99";
         String aTitle = "";
-        driver.get("http://www.qeworks.com");
+        driver.get("http://www.sqs.com");
         driver.manage().window().maximize();
         
         aTitle = driver.getTitle();
